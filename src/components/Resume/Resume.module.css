@@ -1,0 +1,32 @@
+/* src/components/Resume.module.css */
+
+.resumeContainer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .description {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .resumeLink {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #83B4FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .resumeLink:hover {
+    background-color: #6699cc;
+  }
+  

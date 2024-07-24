@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Breast Cancer Prediction using Deep Learning Techniques",
+      "imageSrc": "projects/Breast-Cancer.jpg",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["Deep Learning"],
+     
+      "source": "https://github.com/anjali20082003/Breast-cancer-Prediction-"
+    },
+    {
+      "title": "Prediction of loan approval of customers based on Credit Scoring ",
+      "imageSrc": "projects/loan-prediction.jpg",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["Machine Learning"],
+     
+      "source": "https://github.com/anjali20082003/Prediction-of-Loan-Approvall-of-Customers-based-on-Credit-Scoring-"
+    },
+    {
+      "title": "PolyDisease-A Multi Class Disease Identification-Model",
+      "imageSrc": "projects/poly.jpg",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["Deep Learning","Machine Learning"],
+      
+      "source": "https://github.com/anjali20082003/PolyDisease-Classifier-A-Multi-Class-Disease-Identification-Model/blob/main/Classification_Model_to_Identify_Multiple_Disease_Project.ipynb"
+    }
+  ]
