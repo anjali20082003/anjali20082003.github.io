@@ -9,7 +9,7 @@ const Resume = () => {
       <p className={styles.description}>
         Click the link below to view or download my resume.
       </p>
-      <a href="assets\resume\Resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.resumeLink}>
+      <a href="resume\Resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.resumeLink}>
         
         View Resume
       </a>
