@@ -1,0 +1,37 @@
+[
+  {
+    "role": "Developer Intern",
+    "organisation": "TrioTree Technology",
+    "startDate": "June, 2024",
+    "endDate": "July, 2024",
+    "experiences": [
+      "Built React.js web apps and participated in testing and code reviews.",
+      "Improved technical skills and teamwork through project collaboration."
+    ],
+    "imageSrc": "history/Triotree.webp"
+  },
+  {
+    "role": "Summer Internship",
+    "organisation": "Computer Vision and Deep Learning",
+    "startDate": "June, 2023",
+    "endDate": "July,2023",
+    "experiences": [
+      "Image Processing: Filtering and feature extraction.",
+      "Deep Learning: Training neural networks."
+      
+    ],
+    "imageSrc": "history/igdtuw.jpeg"
+  },
+  {
+    "role": "Summer Internship",
+    "organisation": "ML and its Application in Cyber Security",
+    "startDate": "Aug, 2021",
+    "endDate": "Aug, 2022",
+    "experiences": [
+      "Malware Detection: Developed models for detecting malware.",
+      "Python Skills: Enhanced proficiency in Python and ML libraries."
+      
+    ],
+    "imageSrc": "history/igdtuw.jpeg"
+  }
+]

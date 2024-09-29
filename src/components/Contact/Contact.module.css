@@ -3,25 +3,27 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color: #f0f4f8; /* Lighter background for a cleaner look */
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100vw;
   padding: 58px 10%;
-  gap: 10px;
+  gap: 20px;
 }
 
 .text h2 {
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
+  color: #19376d; /* Blue text for headings */
 }
 
 .text p {
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
+  color: #333333; /* Dark grey for text */
 }
 
 .links {
@@ -39,20 +41,31 @@
 }
 
 .link img {
-  width: 30px; 
-  height: 30px; 
+  width: 30px; /* Icon size */
+  height: 30px; /* Icon size */
   cursor: pointer;
+
+  filter: hue-rotate(200deg) brightness(0) saturate(100%); /* Adjust hue to blue */
+  transition: transform 0.2s ease; /* Smooth transition for scaling */
+}
+
+.link img:hover {
+  transform: scale(1.1); /* Scale up on hover */
 }
 
 .link a {
-  color: var(--color-text);
+  color: #19376d; /* Link color */
   text-decoration: none;
   font-size: 22px;
   font-weight: 400;
   letter-spacing: 1.5px;
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
+}
+
+.link a:hover {
+  text-decoration: underline; /* Hover effect for links */
 }
 
 @media screen and (max-width: 830px) {

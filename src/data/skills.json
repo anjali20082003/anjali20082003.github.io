@@ -8,9 +8,9 @@
       "imageSrc": "skills/css.png"
     },
     {
-      "title": "React",
-      "imageSrc": "skills/react.png"
-    },
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    },  
     {
       "title": "MySQl",
       "imageSrc": "skills/mysql.png"
@@ -20,8 +20,10 @@
       "imageSrc": "skills/python.png"
     },
    
+   
     {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "title": "React",
+      "imageSrc": "skills/react.png"
     }
+   
   ]

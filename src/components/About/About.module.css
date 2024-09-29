@@ -66,6 +66,13 @@
   font-size: 25px;
 }
 
+/* Icon size adjustment */
+.aboutItem img {
+  width: 70px; /* Set the width of the icons */
+  height: 70px; /* Set the height of the icons */
+  margin-right: 15px; /* Add some space between the icon and text */
+}
+
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;

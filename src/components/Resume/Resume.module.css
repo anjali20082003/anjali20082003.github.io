@@ -2,63 +2,65 @@
 
 .resumeContainer {
   text-align: center;
-  padding: 3rem;
-  background-color: #f9f9f9; /* Light grey background for a clean look */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 4rem;
+  background-color: #04152d; /* Dark background for a professional look */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
 }
 
 .heading {
-  font-size: 2.5rem;
-  color: #333; /* Dark grey for a classic look */
-  margin-bottom: 1rem;
+  font-size: 3rem; /* Larger heading */
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-transform: uppercase; /* Capitalized for emphasis */
+  letter-spacing: 2px; /* Add spacing for a clean look */
 }
 
 .description {
-  margin: 1rem 0;
-  font-size: 1.2rem;
-  color: #666; /* Medium grey for better readability */
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  color: #b0bec5; /* Slightly lighter grey for readability */
 }
 
 .buttonContainer {
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 
 .resumeLink,
 .downloadLink {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  margin: 0.5rem;
+  padding: 0.85rem 2rem; /* Larger padding for bigger buttons */
+  margin: 0.75rem;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 1rem;
+  border-radius: 6px;
+  font-size: 1.1rem; /* Slightly larger font size */
 }
 
 .resumeLink {
-  background-color: #4a90e2; /* Professional blue for view button */
+  background-color: #1976d2; /* Darker blue for professionalism */
 }
 
 .resumeLink:hover {
-  background-color: #357abd; /* Darker blue on hover */
+  background-color: #155a9a; /* Darker blue on hover */
 }
 
 .downloadLink {
-  background-color: #43a047; /* Green for download button */
+  background-color: #388e3c; /* Professional green for download button */
 }
 
 .downloadLink:hover {
-  background-color: #388e3c; /* Darker green on hover */
+  background-color: #2e7d32; /* Darker green on hover */
 }
 
 .contactInfo {
-  margin-top: 1rem;
-  font-size: 1rem;
-  color: #333; /* Dark grey for contact info */
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
 .contactInfo a {
-  color: #4a90e2; /* Blue for email link */
+  color: #4a90e2;
   text-decoration: none;
 }
 

@@ -1,16 +1,24 @@
 [
+  {
+    "title": "Healthcare App Design Prototype Crafted in Figma",
+    "imageSrc": "projects/Lifeline.jpg",
+    "description": "Designed a healthcare app prototype in Figma with a user-friendly interface for navigation and secure data management.",
+    "skills": ["React.js"],
+   
+    "source": "https://www.figma.com/proto/WU9sIUi2SfcgBeJK7CGONe/Lifeline?node-id=1-3&t=SezpcCV0ZPjAFAWP-1&scaling=scale-down&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=1%3A3"
+  },
     {
-      "title": "Breast Cancer Prediction using Deep Learning Techniques",
+      "title": "Innovative Deep Learning Models for Breast Cancer Prediction",
       "imageSrc": "projects/Breast-Cancer.jpg",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "Utilizing CNNs, I developed models to analyze mammograms and predict breast cancer likelihood, aiding early detection and improved outcomes.",
       "skills": ["Deep Learning"],
      
       "source": "https://github.com/anjali20082003/Breast-cancer-Prediction-"
     },
     {
-      "title": "Prediction of loan approval of customers based on Credit Scoring ",
+      "title": "Predictive Modeling for Loan Approvals Based on Credit Analysis ",
       "imageSrc": "projects/loan-prediction.jpg",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "I applied algorithms for intrusion detection, focusing on real-time threat analysis and collaboration with cybersecurity experts.",
       "skills": ["Machine Learning"],
      
       "source": "https://github.com/anjali20082003/Prediction-of-Loan-Approvall-of-Customers-based-on-Credit-Scoring-"
@@ -18,7 +26,7 @@
     {
       "title": "PolyDisease-A Multi Class Disease Identification-Model",
       "imageSrc": "projects/poly.jpg",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "The model is a deep learning system that detects multiple diseases from medical data, enhancing diagnostic speed and accuracy.",
       "skills": ["Deep Learning","Machine Learning"],
       
       "source": "https://github.com/anjali20082003/PolyDisease-Classifier-A-Multi-Class-Disease-Identification-Model/blob/main/Classification_Model_to_Identify_Multiple_Disease_Project.ipynb"

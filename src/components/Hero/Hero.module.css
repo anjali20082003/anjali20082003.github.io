@@ -1,8 +1,9 @@
-@import "../../vars.css";
+@import "../../vars.css"; /* Importing variable styles */
 
 .container {
   position: relative;
   display: flex;
+  
   align-items: center;
   justify-content: space-between;
   margin-top: 49px;
@@ -14,105 +15,132 @@
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  color: var(--color-text);
+  align-items: flex-start; /* Align text to the start (left) */
+  color: var(--color-text); /* Using color variable */
   z-index: 1;
 }
 
 .title {
-  font-size: 72px;
-  font-weight: 900;
-  
-  margin-bottom: 33px;
-  font-family: var(--font-roboto);
+  font-size: 72px; /* Size of the main title */
+  font-weight: 900; /* Bold font */
+  margin-bottom: 33px; /* Space below the title */
+  font-family: var(--font-roboto); /* Custom font */
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Text fill effect */
+  -webkit-background-clip: text; /* Clip the background to text */
+}
+
+.subtitle {
+  font-size: 40px; /* Size of the subtitles */
+  font-weight: 700; /* Semi-bold font */
+  margin-bottom: 10px; /* Space below the subtitles */
+  font-family: var(--font-roboto); /* Use the same font */
+  color: var(--color-text); /* Text color */
 }
 
 .description {
-  font-size: 30px;
+  font-size: 25px; /* Font size for description */
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
-}
-.description img{
-   border-radius: 50%;
+  margin-bottom: 25px; /* Space below the description */
 }
 
+.description img {
+  border-radius: 50%; /* Rounded image for profile or decorative images */
+}
 
 .contactBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none; /* No underline for links */
+  background-color: var(--color-primary); /* Primary color for button */
+  color: var(--color-text); /* Text color for button */
+  border-radius: 100px; /* Rounded corners */
+  font-size: 30px; /* Font size for button */
+  font-weight: 600; /* Semi-bold font */
+  padding: 17px 26px; /* Padding for button */
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); /* Shadow effect */
+  transition: background-color 0.3s; /* Smooth background transition */
 }
 
+.contactBtn:hover {
+  background-color: var(--color-secondary); /* Change to secondary color on hover */
+}
 
-  .heroImg {
-    width: 40%;
-    z-index: 1;
-    border-radius: 50%; /* Makes the image round */
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-  }
-
+.heroImg {
+  width: 450px; /* Width of the image */
+  height: 600px; /* Fixed height for the image */
+  z-index: 1;
+  border-radius: 50%; /* Makes the image circular */
+  animation-name: floating; /* Animation effect */
+  animation-duration: 3s; /* Duration of the animation */
+  animation-iteration-count: infinite; /* Loop the animation */
+  animation-timing-function: ease-in-out; /* Smooth animation */
+}
 
 @keyframes floating {
   0% {
-    transform: translate(0, 0px);
+    transform: translate(0, 0px); /* Start position */
   }
   50% {
-    transform: translate(0, 10px);
+    transform: translate(0, 10px); /* Move down */
   }
   100% {
-    transform: translate(0, -0px);
+    transform: translate(0, -0px); /* Return to start */
   }
 }
 
 .topBlur {
   position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
+  width: 50vw; /* Width of the blur */
+  height: 50vw; /* Height of the blur */
+  min-width: 350px; /* Minimum width */
+  top: -128px; /* Position from the top */
+  left: -10vw; /* Position from the left */
+  border-radius: 764px; /* Rounded corners */
+  background: rgba(25, 55, 109, 0.7); /* Blur background color */
+  filter: blur(100px); /* Blur effect */
+  z-index: 0; /* Below other elements */
 }
 
 .bottomBlur {
   position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
+  width: 70vw; /* Width of the bottom blur */
+  height: 50vw; /* Height of the bottom blur */
+  min-width: 250px; /* Minimum width */
+  top: 246px; /* Position from the top */
+  right: -25vw; /* Position from the right */
+  border-radius: 764px; /* Rounded corners */
+  background: rgba(25, 55, 109, 0.7); /* Blur background color */
+  filter: blur(100px); /* Blur effect */
+  z-index: 0; /* Below other elements */
 }
 
+/* Responsive Design */
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; /* Stack content on smaller screens */
   }
 
   .content {
-    align-items: center;
+    align-items: center; /* Center align text */
+  }
+
+  .title {
+    font-size: 50px; /* Reduce title size on smaller screens */
+  }
+
+  .subtitle {
+    font-size: 30px; /* Reduce subtitle size on smaller screens */
+  }
+
+  .description {
+    font-size: 24px; /* Reduce description size on smaller screens */
+  }
+
+  .contactBtn {
+    font-size: 24px; /* Reduce button text size on smaller screens */
+    padding: 12px 20px; /* Adjust padding for smaller screens */
   }
 }
