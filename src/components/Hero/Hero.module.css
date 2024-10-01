@@ -3,7 +3,6 @@
 .container {
   position: relative;
   display: flex;
-  
   align-items: center;
   justify-content: space-between;
   margin-top: 49px;
@@ -46,10 +45,6 @@
   font-size: 25px; /* Font size for description */
   font-family: var(--font-roboto);
   margin-bottom: 25px; /* Space below the description */
-}
-
-.description img {
-  border-radius: 50%; /* Rounded image for profile or decorative images */
 }
 
 .contactBtn {
@@ -121,10 +116,13 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse; /* Stack content on smaller screens */
+    margin-left: 5%; /* Adjust margins */
+    margin-right: 5%;
   }
 
   .content {
     align-items: center; /* Center align text */
+    text-align: center; /* Center text alignment */
   }
 
   .title {
@@ -142,5 +140,35 @@
   .contactBtn {
     font-size: 24px; /* Reduce button text size on smaller screens */
     padding: 12px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .heroImg {
+    width: 200px; /* Make the image smaller on mobile */
+    height: 200px;
+    margin-top: 20px; /* Add space between image and content */
+  }
+
+  .topBlur,
+  .bottomBlur {
+    display: none; /* Hide the blur effects on smaller screens for a cleaner look */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heroImg {
+    width: 150px; /* Further reduce image size on very small screens */
+    height: 150px;
+  }
+
+  .title {
+    font-size: 40px; /* Further reduce title size */
+  }
+
+  .subtitle {
+    font-size: 25px; /* Further reduce subtitle size */
+  }
+
+  .description {
+    font-size: 20px; /* Adjust description size */
   }
 }
