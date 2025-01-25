@@ -65,7 +65,7 @@
 
 .heroImg {
   width: 450px; /* Width of the image */
-  height: 600px; /* Fixed height for the image */
+  height: 500px; /* Fixed height for the image */
   z-index: 1;
   border-radius: 50%; /* Makes the image circular */
   animation-name: floating; /* Animation effect */

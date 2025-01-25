@@ -1,8 +1,10 @@
-// Resume.jsx
 import React from 'react';
 import styles from './Resume.module.css';
 
 const Resume = () => {
+  // Dynamically construct the path to the resume based on the base URL
+  const resumePath = `${import.meta.env.BASE_URL}Anjali_Resume.pdf`;
+
   return (
     <div className={styles.resumeContainer} id="resume">
       <h1 className={styles.heading}>My Resume</h1>
@@ -10,9 +12,9 @@ const Resume = () => {
         You can view or download my resume using the links below.
       </p>
       <div className={styles.buttonContainer}>
-        {/* Use the relative path from the public folder */}
+        {/* Use the dynamic path for the resume */}
         <a
-          href="/Anjali_Resume.pdf"  // Corrected relative path
+          href={resumePath}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.resumeLink}
@@ -20,7 +22,7 @@ const Resume = () => {
           View Resume
         </a>
         <a
-          href="/Anjali_Resume.pdf"  // Corrected relative path for download
+          href={resumePath}
           download
           className={styles.downloadLink}
         >
